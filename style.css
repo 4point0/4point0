@@ -1,0 +1,19 @@
+/** css for 4.0 index */
+
+.header{
+  width:100%;
+}
+
+.body{
+  width:100%;
+}
+
+.footer{
+  width:100;
+}
+
+.copyright{
+  width:100px;
+  height:55px;
+  margin:0 auto;
+}
