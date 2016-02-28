@@ -1,29 +1,193 @@
-<!DOCTYPE html>
-<html ng-app="root">
-  
-  <head>
-    <title>4.0</title>
-  </head>
-  
-<body>
-  
-  <div class="header"></div>
-  
-  <div class="body">
-    
-    <div ng-controller="index">{{message}}</div>
-    
-  </div>
-  
-<p>Future home for software projects of 4.0</p>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>4.0 Designs | Directed Web Development</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Harry McKinney's 4.0 designs is a company that builds strategic websites for small to medium size businesses, individuals and start ups" />
+		<meta name="keywords" content="4 point 0 designs, 4.0 designs, Harry McKinney, Knoxville TN, website development Knoxville Tennessee, website design Knox TN, web page Knoxville TN, web page East Tennessee, Real Estate Web Page Design Knoxville TN, start-up webpage Knoxville TN, Professional Website Design Knoxville TN, fast website designs Knoxville TN, Best Website Designs Knoxville TN, 4.0 Design Harry McKinney Knoxville TN Website Design, PPC Advertising Campaigns East TN, Knoxville TN, Website Designs West Knoxville TN, Website Online Marketing Packages Knoxville TN" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollex.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
 
-  <div class="footer">
-        <div class="copyright"> &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script>
-        </div>
-    </div>
-  
-</body>
+		<link rel="icon" type="image/ico" href="4point0/images/40designs.ico"/>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-normal.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+				<script>
+				var message = "function disabled";
+				function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+				if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { 	alert(message); return false; } }
+				document.onmousedown = rtclickcheck;
+				</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53556531-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+
+				<!-- Logo -->
+					<h1 id="logo">4.0 Designs</h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#one">About Us</a></li>
+							<li><a href="#two">What we Offer</a></li>
+							<li><a href="#work">Portfolio</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container 75%">
+					<header>
+						<h2>Welcome to 4.0</h2>
+					</header>
+					<p>Our focus is on small business and individuals, we are here to make sense of your current web
+					project, from development, design, database management and marketing we are your answer!</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>About Us</h2>
+					</header>
+					<p>Founded in 2014 we bring more than 20 years of web design experience to you! We are passionate programmers with a deep understanding of
+					small business. Our backgrounds include web development, graphic design and marketing.</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What we Offer</h2>
+					</header>
+					<p>We provide solutions that you can measure. We include tested methods combined with experience and research so you and your company can reach
+					your next goal. Services include: site development, publication, graphic design and marketing solutions.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content container">
+					<header>
+						<h2>Projects</h2>
+						<p>We are a Fast Paced Web Development Company, so our portfolio is always growing! Here are a few
+						of our current and past projects, contact us and let us know what your challenges and goals are, we are
+						here to help you get to the next level!</p>
+					</header>
+
+					<!-- Lightbox Gallery  -->
+						<div class="container 75% gallery">
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/01.png" class="image fit from-left"><img src="images/thumbs/01.png" title="website screen shot for Craig's Firearms & Police Supply" alt="Craigs Firearms and Police Supply Website" /></a></div>
+								<div class="6u"><a href="images/fulls/02.png" class="image fit from-right"><img src="images/thumbs/02.png" title="We build Fully Responsive Sites at 4.0 Designs" alt="4.0 Designs is a Leader in Responsive Website Design" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/03.png" class="image fit from-left"><img src="images/thumbs/03.png" title="Complex 88's website design" alt="We did a website for an Alaskan Snowboard Company" /></a></div>
+								<div class="6u"><a href="images/fulls/04.png" class="image fit from-right"><img src="images/thumbs/04.png" title="Top Level Masonry (Of North Dakota) " alt="This is the website for Top Level Masonry in North Dakota" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/05.png" class="image fit from-left"><img src="images/thumbs/05.png" title="Salt and Bubbled's eCommerce website" alt="This is a Screenshot of Salt and Bubbled's eCommerce site" /></a></div>
+								<div class="6u"><a href="images/fulls/06.png" class="image fit from-right"><img src="images/thumbs/06.png" title="Ionofi Software Company" alt="This is a view of Ionofi's website" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/07.png" class="image fit from-left"><img src="images/thumbs/07.png" title="The Cleanest Tail Shampoo Co. (We did the label design)" alt="We do Product Label design" /></a></div>
+								<div class="6u"><a href="images/fulls/08.png" class="image fit from-right"><img src="images/thumbs/08.png" title="Advanced Communications Electronics Website" alt="The Website for Advanced Communications Electronics of East Tennessee" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/09.png" class="image fit from-left"><img src="images/thumbs/09.png" title="We offer Project 4 Website Analytics to ALL of our clients" alt="We Offer Project 4's Custom Analytics and Demographics software suite" /></a></div>
+								<div class="6u"><a href="images/fulls/10.png" class="image fit from-right"><img src="images/thumbs/10.png" title="4.0 is certified in Google AdWords and Google Analytics" alt="We have staff that are certified in Google Products like Adwords and Analytics" /></a></div>
+							</div>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					<header>
+						<h2>Contact 4.0</h2>
+						<p>Drop us a line, we're here to talk about pretty much anything :)</p>
+					</header>
+					<div class="box container 75%">
+
+					<!-- Contact Form -->
+							<form method="post" action="mail.php">
+								<div class="row 50%">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="email" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row 50%">
+									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" id='submit' name='submit'/></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="actions">
+						<li><a href="http://twitter.com/harrypmckinney" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="http://www.facebook.com/4point0designs" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="http://plus.google.com/100996004900536104084/posts" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="http://www.linkedin.com/pub/harry-mckinney/49/12b/695?trk=shareFB" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="http://github.com/harrymckinney/" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="tel:+18653854902" class="icon alt fa-tty"><span class="label">865-385-4902</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>Copyright &copy; 2014 - <?php echo date('Y')?> | 4.0 Designs LLC. All Rights Reserved</li>
+					</ul>
+
+			</footer>
+
+	</body>
 </html>
